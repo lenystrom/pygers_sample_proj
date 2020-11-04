@@ -9,7 +9,7 @@
 #SBATCH --partition=all
 
 # How long is job?
-#SBATCH -t 34:00:00
+#SBATCH -t 18:00:00
 
 # Set array to be your subject number
 #SBATCH --array=001
@@ -22,7 +22,7 @@
 #SBATCH --cpus-per-task=8 --mem-per-cpu=20000
 
 # Update with your email 
-#SBATCH --mail-user=YOUREMAIL@princeton.edu
+#SBATCH --mail-user=nystrom@princeton.edu
 #SBATCH --mail-type=BEGIN,END,FAIL
 
 # Remove modules because Singularity shouldn't need them
