@@ -9,7 +9,7 @@ scanner_dir=/jukebox/norman/pygers/conquest
 #scanner_dir=/jukebox/norman/pygers/conquest #Sample project data
 
 # 2. Edit where your project directory is
-project_dir=/jukebox/cohen/nystrom/pygers_workshop/sample_project
+project_dir=/jukebox/cohen/nystrom/pygers_workshop/sample_study
 
 data_dir=$project_dir/data
 bids_dir=$data_dir/bids
